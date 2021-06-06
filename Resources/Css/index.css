@@ -17,7 +17,15 @@ html body {
   max-width: 1440px;
   margin: 0 auto;
 }
-
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+  visibility: hidden;
+}
 /*** header Section ***/
 
 header {
@@ -203,20 +211,10 @@ header {
   transform: scale(1);
   opacity: 1;
 }
-.clearfix {
-  zoom: 1;
-}
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-  visibility: hidden;
-}
 
 /*** Services ***/
 .services-sec {
   background-color: #f4f4f4;
-  text-align: center;
   text-align: center;
 }
 .service-heading {
