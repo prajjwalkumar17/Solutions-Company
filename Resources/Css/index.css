@@ -35,6 +35,7 @@ header {
   background-size: cover;
   background-position: center;
   position: relative;
+  background-attachment: fixed;
 }
 
 .logo {
@@ -217,7 +218,7 @@ header {
   background-color: #f4f4f4;
   text-align: center;
 }
-.service-heading {
+.service-headings {
   font-size: 250%;
   color: #000;
   margin-bottom: 20px;
@@ -269,3 +270,71 @@ header {
 }
 
 /*** Featured ***/
+
+.featured-sec {
+  text-align: center;
+  background-color: #fff;
+}
+.featured-heading {
+  color: black;
+  font-size: 250%;
+}
+.featured-subheading {
+  font-size: 150%;
+  color: #555;
+}
+
+.brand-logo {
+  width: 65%;
+  height: auto;
+}
+
+/*** tesstimonials***/
+.testimonial-sec {
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+    url(/Resources/Css/img/testimonial-background.jpg);
+  background-attachment: fixed;
+}
+.testimonial-headings {
+  font-size: 250%;
+  font-weight: 300;
+  margin-bottom: 20px;
+  margin-top: 150px;
+}
+.testimonial-box {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+  margin-top: 40px;
+}
+
+blockquote:before {
+  content: "\201c";
+  display: block;
+  font-size: 500%;
+  font-weight: 350;
+  position: absolute;
+  top: -5;
+}
+cite {
+  display: block;
+  margin-top: 25px;
+  font-size: 90%;
+}
+
+cite img {
+  border-radius: 50%;
+  height: 20%;
+  vertical-align: middle;
+  margin-right: 10px;
+}
