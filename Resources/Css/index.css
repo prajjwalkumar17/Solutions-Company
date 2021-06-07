@@ -93,7 +93,8 @@ header {
 }
 
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type="submit"] {
   text-decoration: none;
   color: white;
   padding: 10px 30px;
@@ -102,7 +103,8 @@ header {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type="submit"] {
   background-color: #ed07b7;
   text-decoration: none;
   border-radius: 200px;
@@ -111,7 +113,8 @@ header {
 }
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type="submit"]:hover {
   background-color: #74045a;
   color: white;
 }
@@ -408,4 +411,117 @@ cite img {
   background-color: #fcfcfc;
 }
 
-/****COntactUs****/
+/****ContactUs****/
+
+.contact-sec {
+  text-align: center;
+}
+
+.lebel {
+  text-align: left;
+  color: #000;
+  font-weight: 500;
+}
+.bhopu {
+  margin-top: 50px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #555;
+}
+input[type="checkbox"] {
+  margin: 10px 5px;
+}
+textarea {
+  height: 100px;
+}
+.newsletter {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contact-form {
+  margin: 0 auto;
+}
+
+input[type="submit"] {
+  border: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+/***footer***/
+footer {
+  background-color: #333;
+  padding: 50px;
+  font-size: 80%;
+  color: #efefef;
+}
+.footer-nav {
+  float: left;
+}
+.footer-nav li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+  color: #888;
+  text-decoration: none;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  color: #fff;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.social-links li {
+  color: #555;
+  font-size: 150%;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+.social-links {
+  float: right;
+}
+
+.fa-instagram:hover,
+.fa-instagram:active {
+  transition: color 0.2s;
+  color: #c32aa3;
+}
+.fa-facebook-square:hover,
+.fa-facebook-square:active {
+  transition: color 0.2s;
+  color: #3b5998;
+}
+.fa-google-plus:hover,
+.fa-google-plus:active {
+  transition: color 0.2s;
+  color: #ea4335;
+}
+.fa-twitter:hover,
+.fa-twitter:active {
+  transition: color 0.2s;
+  color: #1da1f2;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 50px;
+  line-height: 1.5;
+}
