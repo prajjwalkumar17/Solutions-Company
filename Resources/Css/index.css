@@ -218,8 +218,8 @@ header {
   text-align: center;
 }
 .service-heading {
-  color: #000;
   font-size: 250%;
+  color: #000;
   margin-bottom: 20px;
   margin-top: 150px;
 }
@@ -238,3 +238,34 @@ header {
   display: block;
   margin: 30px auto 0 auto;
 }
+
+.big-icon {
+  font-size: 250%;
+  color: #ed07b7;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.service-box {
+  padding: 1% 3%;
+}
+
+.service-heading {
+  font-size: 150%;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.service-para {
+  font-size: 90%;
+  color: #666890;
+  margin-bottom: 20px;
+}
+
+.service-link {
+  text-decoration: none;
+  color: #ed07b7;
+  text-transform: uppercase;
+}
+
+/*** Featured ***/
