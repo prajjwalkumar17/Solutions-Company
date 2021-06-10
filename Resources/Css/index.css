@@ -29,8 +29,8 @@ html body {
 /*** header Section ***/
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgb(0, 0, 0, 0.7)),
-    url(/Resources/Css/img/header-img.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgb(0, 0, 0, 0.9)),
+    url(/Resources/Css/img/header-img.jpeg);
   height: 100vh;
   background-size: cover;
   background-position: center;
