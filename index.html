@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script
       src="https://kit.fontawesome.com/9485a7f96c.js"
       crossorigin="anonymous"
@@ -12,8 +13,10 @@
       href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;400;600&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="/Vendors/Css/fluid.css" />
     <link rel="stylesheet" href="/Resources/Css/index.css" />
+    <link rel="stylesheet" href="/Resources/Css/mediaquery.css" />
   </head>
   <body>
     <header class="header">
@@ -30,7 +33,7 @@
         </ul>
       </nav>
       <div class="header-box">
-        <div class="header-text-box">
+        <div class="header-text-box js-header">
           <h1 id="headerh1">Digital Agency</h1>
           <h2 id="headerh2">The one stop for all digital solutions</h2>
         </div>
@@ -40,7 +43,7 @@
 
     <section class="about-section">
       <div class="row">
-        <div class="col span_1_of_2 about-box">
+        <div class="col span_1_of_2 about-box js-About">
           <h2 class="about-heading">
             A Digital Agency Focussed On Growing Your Social Presence
           </h2>
@@ -54,7 +57,7 @@
           </p>
           <a class="btn btn-ghost" href="#">Read More</a>
         </div>
-        <div class="col span_1_of_2 about-box">
+        <div class="col span_1_of_2 about-box js-About">
           <img
             class="laptop-img"
             src="/Resources/Img/about-img.jpg"
@@ -64,13 +67,14 @@
       </div>
     </section>
 
-    <section class="work-sec">
+    <section class="work-sec jsserv">
       <div class="row">
         <h2 class="work-heading">Our Works</h2>
         <h3 class="work-subheading">
           We have all our works listed here hope you like it!
         </h3>
       </div>
+
       <ul class="work-portfolio clearfix">
         <li>
           <figure class="portfolio-imgi">
@@ -165,28 +169,28 @@
       </div>
 
       <div class="row">
-        <div class="col span_1_of_4">
+        <div class="col span_1_of_4 featured-col">
           <img
             src="/Resources/Img/brand-logo-1.png"
             alt="brand-logo"
             class="brand-logo"
           />
         </div>
-        <div class="col span_1_of_4">
+        <div class="col span_1_of_4 featured-col">
           <img
             src="/Resources/Img/brand-logo-2.png"
             alt="brand-logo"
             class="brand-logo"
           />
         </div>
-        <div class="col span_1_of_4">
+        <div class="col span_1_of_4 featured-col">
           <img
             src="/Resources/Img/brand-logo-3.png"
             alt="brand-logo"
             class="brand-logo"
           />
         </div>
-        <div class="col span_1_of_4">
+        <div class="col span_1_of_4 featured-col">
           <img
             src="/Resources/Img/brand-logo-4.png"
             alt="brand-logo"
@@ -196,28 +200,28 @@
       </div>
 
       <div class="row">
-        <div class="col span_1_of_4">
+        <div class="col span_1_of_4 featured-col">
           <img
             src="/Resources/Img/brand-logo-5.png"
             alt="brand-logo"
             class="brand-logo"
           />
         </div>
-        <div class="col span_1_of_4">
+        <div class="col span_1_of_4 featured-col">
           <img
             src="/Resources/Img/brand-logo-6.png"
             alt="brand-logo"
             class="brand-logo"
           />
         </div>
-        <div class="col span_1_of_4">
+        <div class="col span_1_of_4 featured-col">
           <img
             src="/Resources/Img/brand-logo-7.png"
             alt="brand-logo"
             class="brand-logo"
           />
         </div>
-        <div class="col span_1_of_4">
+        <div class="col span_1_of_4 featured-col">
           <img
             src="/Resources/Img/brand-logo-8.png"
             alt="brand-logo"
@@ -258,8 +262,11 @@
             startup grow leaps and bounds.
           </blockquote>
           <cite
-            ><img src="/Resources/Img/client-3.jpg" alt="Elena D'cruz" />Elena
-            D'cruz</cite
+            ><img
+              class="lilili"
+              src="/Resources/Img/client-3.jpg"
+              alt="Elena D'cruz"
+            />Elena D'cruz</cite
           >
         </div>
       </div>
@@ -331,7 +338,7 @@
         </div>
 
         <div class="col span_1_of_3">
-          <div class="package-box">
+          <div class="package-box js--box">
             <div>
               <h4 class="package-heading">Enterprice</h4>
               <p class="package-price">$4,999 <span>12 Months</span></p>
@@ -478,5 +485,8 @@
         </p>
       </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="/Resources/JS/script.js"></script>
   </body>
 </html>

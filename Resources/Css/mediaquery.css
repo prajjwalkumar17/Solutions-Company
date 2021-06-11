@@ -1,0 +1,168 @@
+/** @format */
+@media only screen and (max-width: 2000px) {
+  html,
+  body {
+    font-size: 18px;
+  }
+  .about-section {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  html body {
+    font-size: 14px;
+  }
+  .about-para {
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+  .about-section {
+    margin-top: 50px;
+  }
+
+  .packages-sec {
+    padding-left: 40px;
+  }
+  .contact-sec {
+    padding-right: 20px;
+  }
+
+  .about-box,
+  .work-heading,
+  .service-headings,
+  .testimonial-headings {
+    margin-top: 90px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  html body {
+    font-size: 12px;
+  }
+  .about-box,
+  .work-heading,
+  .service-headings,
+  .testimonial-headings {
+    margin-top: 70px;
+  }
+  .about-section {
+    margin-top: 40px;
+  }
+  footer {
+    padding: 20px;
+  }
+  footer p {
+    line-height: 1.3;
+    margin-top: 20px;
+  }
+  .contact-sec {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  html body {
+    font-size: 10px;
+  }
+  .about-section {
+    margin-top: 10px;
+  }
+  .about-box,
+  .work-heading,
+  .service-headings,
+  .testimonial-headings {
+    margin-top: 60px;
+  }
+  .header-text-box {
+    margin-bottom: 90px;
+  }
+  .testimonial-headings {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  html body {
+    font-size: 8px;
+  }
+  .about-box,
+  .work-heading,
+  .service-headings,
+  .testimonial-headings {
+    margin-top: 50px;
+  }
+  .about-box {
+    text-align: center;
+  }
+  .about-heading {
+    margin-bottom: 20px;
+  }
+  .about-box :first-child {
+    text-align: left;
+    padding: 0 5%;
+  }
+  .about-box :first-child {
+    text-align: center;
+    padding: 0 5%;
+  }
+  .about-box {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .laptop-img {
+    float: none;
+  }
+  .about-section {
+    margin-top: 0;
+  }
+
+  .testimonial-box {
+    margin: 0;
+    text-align: center;
+  }
+  cite {
+    margin-top: 15px;
+  }
+  .lilili {
+    margin-bottom: 20px;
+  }
+  .package-box {
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+  .contact-sec {
+    padding-left: 10px;
+  }
+
+  .work-subheading,
+  .service-subheading {
+    margin-bottom: 5px;
+  }
+
+  .work-portfolio li {
+    width: 50%;
+  }
+
+  .featured-col {
+    width: 25%;
+  }
+
+  blockquote:before {
+    font-weight: 400;
+    right: 90%;
+  }
+  .footer-nav,
+  .social-links {
+    float: none;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  footer p {
+    margin-top: 5px;
+  }
+
+  .about-section {
+    margin-top: 0;
+  }
+}
